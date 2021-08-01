@@ -1,0 +1,6 @@
+Use authentication
+Use migrations
+Use cache
+Figure out docker
+Making use of celery - python
+Using microservices (every ep has a server of it's own)

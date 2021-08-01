@@ -1,8 +1,9 @@
-from flask import Flask
+from flask import Flask, jsonify
 
 
+app = Flask(__name__)
 
 
-if __name__ == "main":
-	app.run()
-
+@app.route("/")
+def hello_world():
+    return jsonify(hello="world")
